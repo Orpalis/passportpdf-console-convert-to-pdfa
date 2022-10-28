@@ -64,7 +64,7 @@ namespace PDFAConversion
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Could not save PDF/A file! : {0}", ex);
+                Console.WriteLine("Could not save PDF/A file! : {0}", ex.Message);
             }
 
         }
